@@ -1,0 +1,28 @@
+#PointCloud程序点云生成配置文件
+#相片文件夹下应存有times.txt GroundTruth.txt以及image_0和image_1文件夹
+
+#00-02
+#Fx = 718.856;
+#Fy = 718.856;
+#Cx = 607.1928;
+#Cy = 185.2157;
+#Bf = 386.1448;
+#03
+#Fx = 721.5377 ; 
+#Fy = 721.5377 ; 
+#Cx = 609.5593;
+#Cy = 172.854 ;
+#Bf = 387.5744 ;
+#04-10
+Fx = 707.0912;
+Fy = 707.0912;
+Cx = 601.8873;
+Cy = 183.1104;
+Bf = 379.8145;
+
+VarPix = 9 ;
+BackProjectUVError = 9 ;
+Pic_Folder = D:\KITTI\04;
+Start_Fid = 0;
+Suffix = 1；[0:jpg,1:png,2:bmp]
+END
